@@ -1,0 +1,15 @@
+#navlinks {
+    margin-right: 10%;
+}
+
+body {
+    padding-top: 30px;
+}
+
+nav {
+    background-color: rgba(2, 0, 0, 0.6)
+}
+
+a.nav-link {
+    color: whitesmoke
+}

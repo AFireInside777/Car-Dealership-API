@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+    body {
+        background-image: url('/static/images/Silver_Lamborghini.jpg');
+        background-position: 0px -65px;
+    }
+</style>
+<body>
+    <main class="container p-5">
+        <div class="row">
+            <aside class="col-md-6 col-12"> 
+                <h2>Create Your Account</h2>
+                {% include 'forms.html' %}
+            </aside> 
+        </div>
+    </main>
+</body>
+{% endblock %}
